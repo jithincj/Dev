@@ -4,6 +4,12 @@ body {
     height: 98%;
     width: 98%;
 }
-.core-div-master-parent {
-    
+.core-div-side{
+     float: lett;
+	 width:auto;
+     max-width:25%;
+	 padding: 5px; 
+     height:100%;
+     background-color: #82b1ff;
+     overflow:hidden;
 }
