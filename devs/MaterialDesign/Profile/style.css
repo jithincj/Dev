@@ -1,15 +1,43 @@
 html, 
 body {
-    background-color: #29b6f6;
-    height: 98%;
-    width: 98%;
+    background-color: lightgreen;
+    height:99%;
+    width: 99%;
 }
-.core-div-side{
+.core-div-left-side{
      float: lett;
 	 width:auto;
      max-width:25%;
 	 padding: 5px; 
      height:100%;
-     background-color: #82b1ff;
+     margin: 5px;
+     background-color:  #23bcab;
      overflow:hidden;
+     display: -webkit-flex;
+     display: flex;
+}
+.core-div-left-side-item{
+    flex-direction: column;
+    height: 25%;
+    width: 100%;
+}
+.pro-pic{
+    height: 70%;
+    width: 40%;
+    margin-top: 5%;
+    background-color: aliceblue;
+    background-image: url('pro-pic.png')
+}
+/*Utilities*/
+.box-shadow{
+    box-shadow: 10px 10px 5px #888888;    
+}
+.circle {
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #4679BD;
+}
+.center{
+    margin: 0 auto;
 }
